@@ -1,0 +1,647 @@
+{
+  "facts": {
+    "patient_name": "Jordan Miller",
+    "incident_date": "March 12, 2026",
+    "injuries": [
+      {
+        "name": "Neck pain",
+        "body_part": "cervical / neck",
+        "severity": "7/10",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Symptoms: The patient reported neck pain rated 7/10, lower back pain rated 6/10, and a headache."
+          }
+        ]
+      },
+      {
+        "name": "Low-back pain",
+        "body_part": "lumbar / low back",
+        "severity": "6/10",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Symptoms: The patient reported neck pain rated 7/10, lower back pain rated 6/10, and a headache."
+          }
+        ]
+      },
+      {
+        "name": "Cervical paraspinal tenderness",
+        "body_part": "cervical spine",
+        "severity": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Exam: Cervical paraspinal tenderness and lumbar paraspinal tenderness were documented."
+          }
+        ]
+      },
+      {
+        "name": "Lumbar paraspinal tenderness",
+        "body_part": "lumbar spine",
+        "severity": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Exam: Cervical paraspinal tenderness and lumbar paraspinal tenderness were documented."
+          }
+        ]
+      },
+      {
+        "name": "Lumbar disc protrusion (L4-L5)",
+        "body_part": "lumbar spine, L4-L5",
+        "severity": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 5,
+            "passage": "Impression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 6,
+            "passage": "Assessment: Lumbar disc protrusion at L4-L5 with mechanical low-back pain; improving cervical strain."
+          }
+        ]
+      }
+    ],
+    "diagnoses": [
+      {
+        "name": "Acute cervical strain",
+        "diagnosis_code": null,
+        "date": "March 12, 2026",
+        "provider": "Peachtree Regional Medical Center, Emergency Department",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Assessment: Acute cervical strain; acute lumbar strain; post-traumatic headache."
+          }
+        ]
+      },
+      {
+        "name": "Acute lumbar strain",
+        "diagnosis_code": null,
+        "date": "March 12, 2026",
+        "provider": "Peachtree Regional Medical Center, Emergency Department",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Assessment: Acute cervical strain; acute lumbar strain; post-traumatic headache."
+          }
+        ]
+      },
+      {
+        "name": "Post-traumatic headache",
+        "diagnosis_code": null,
+        "date": "March 12, 2026",
+        "provider": "Peachtree Regional Medical Center, Emergency Department",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Assessment: Acute cervical strain; acute lumbar strain; post-traumatic headache."
+          }
+        ]
+      },
+      {
+        "name": "Cervical strain",
+        "diagnosis_code": null,
+        "date": "March 16, 2026",
+        "provider": "Maya Patel, MD — Midtown Family Medicine",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Assessment: Cervical strain and lumbar strain following motor vehicle collision; headaches."
+          }
+        ]
+      },
+      {
+        "name": "Lumbar strain",
+        "diagnosis_code": null,
+        "date": "March 16, 2026",
+        "provider": "Maya Patel, MD — Midtown Family Medicine",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Assessment: Cervical strain and lumbar strain following motor vehicle collision; headaches."
+          }
+        ]
+      },
+      {
+        "name": "Lumbar disc protrusion at L4-L5",
+        "diagnosis_code": null,
+        "date": "April 14, 2026",
+        "provider": "Daniel Kim, MD — Georgia Spine & Orthopedics",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 6,
+            "passage": "Assessment: Lumbar disc protrusion at L4-L5 with mechanical low-back pain; improving cervical strain."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 5,
+            "passage": "Impression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality."
+          }
+        ]
+      }
+    ],
+    "providers": [
+      {
+        "name": "Atlanta Rehabilitation & Sports Therapy",
+        "specialty": "Physical Therapy / Rehabilitation",
+        "facility": "Atlanta Rehabilitation & Sports Therapy",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Provider: Atlanta Rehabilitation & Sports Therapy\nDate of Service: March 20, 2026\nTherapist: Elena Brooks, DPT\nReferral: Neck and low-back pain after motor vehicle collision."
+          }
+        ]
+      },
+      {
+        "name": "Elena Brooks, DPT",
+        "specialty": "Physical Therapist (Doctor of Physical Therapy)",
+        "facility": "Atlanta Rehabilitation & Sports Therapy",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Therapist: Elena Brooks, DPT"
+          }
+        ]
+      },
+      {
+        "name": "Maya Patel, MD",
+        "specialty": "Family Medicine",
+        "facility": "Midtown Family Medicine",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Provider: Maya Patel, MD — Midtown Family Medicine\nDate of Service: March 16, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Peachtree Regional Medical Center, Emergency Department",
+        "specialty": "Emergency Department",
+        "facility": "Peachtree Regional Medical Center",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Provider: Peachtree Regional Medical Center, Emergency Department\nDate of Service: March 12, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Kim, MD",
+        "specialty": "Orthopedics / Spine (Georgia Spine & Orthopedics)",
+        "facility": "Georgia Spine & Orthopedics",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 6,
+            "passage": "Provider: Daniel Kim, MD — Georgia Spine & Orthopedics\nDate of Service: April 14, 2026"
+          }
+        ]
+      },
+      {
+        "name": "Metro Diagnostic Imaging",
+        "specialty": "Diagnostic Imaging",
+        "facility": "Metro Diagnostic Imaging",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 5,
+            "passage": "Provider: Metro Diagnostic Imaging\nDate of Study: April 8, 2026\nStudy: MRI Lumbar Spine Without Contrast"
+          }
+        ]
+      }
+    ],
+    "treatments": [
+      {
+        "date": "March 12, 2026",
+        "provider": "Peachtree Regional Medical Center, Emergency Department",
+        "treatment": "Acetaminophen administered; discharged with instructions for conservative care and outpatient follow-up.",
+        "body_part": null,
+        "outcome": "Discharged with instructions for conservative care and outpatient follow-up.",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Treatment: Acetaminophen was administered. The patient was discharged with instructions for conservative care and outpatient follow-up."
+          }
+        ]
+      },
+      {
+        "date": "March 20, 2026",
+        "provider": "Atlanta Rehabilitation & Sports Therapy / Elena Brooks, DPT",
+        "treatment": "Therapeutic exercise, stretching, manual therapy, postural education, and home exercise program.",
+        "body_part": "cervical and lumbar spine",
+        "outcome": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Treatment: Therapeutic exercise, stretching, manual therapy, postural education, and home exercise program."
+          }
+        ]
+      },
+      {
+        "date": "April 3, 2026",
+        "provider": "Atlanta Rehabilitation & Sports Therapy",
+        "treatment": "Therapeutic exercise, core stabilization, manual therapy, and home exercise progression.",
+        "body_part": "cervical and lumbar spine",
+        "outcome": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 4,
+            "passage": "Treatment: Therapeutic exercise, core stabilization, manual therapy, and home exercise progression."
+          }
+        ]
+      },
+      {
+        "date": "April 8, 2026",
+        "provider": "Metro Diagnostic Imaging",
+        "treatment": "MRI Lumbar Spine Without Contrast (diagnostic study).",
+        "body_part": "lumbar spine",
+        "outcome": "Impression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality.",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 5,
+            "passage": "Study: MRI Lumbar Spine Without Contrast\nFindings: At L4-L5, there is a small posterior disc protrusion with mild narrowing of the left lateral recess. No acute fracture is identified. Alignment is maintained.\nImpression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality."
+          }
+        ]
+      },
+      {
+        "date": "May 8, 2026",
+        "provider": "Atlanta Rehabilitation & Sports Therapy",
+        "treatment": "Completed 12 physical therapy visits; discharge to independent home exercise program.",
+        "body_part": "cervical and lumbar spine",
+        "outcome": "Neck symptoms improved substantially; low-back pain decreased to 2–3/10 with ordinary activity; sleeping better and tolerating longer computer periods.",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 7,
+            "passage": "Course: Patient completed 12 physical therapy visits.\nOutcome: Neck symptoms improved substantially. Low-back pain decreased to 2–3/10 with ordinary activity, with occasional discomfort after prolonged sitting.\nFunction: Patient reported sleeping better, completing household activities with fewer breaks, and tolerating longer periods at the computer.\nPlan: Discharge to independent home exercise program."
+          }
+        ]
+      },
+      {
+        "date": "April 14, 2026",
+        "provider": "Daniel Kim, MD — Georgia Spine & Orthopedics",
+        "treatment": "Orthopedic consultation; plan to continue physical therapy and home exercise program; consider additional intervention only if conservative treatment fails.",
+        "body_part": "lumbar and cervical spine",
+        "outcome": null,
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 6,
+            "passage": "Assessment: Lumbar disc protrusion at L4-L5 with mechanical low-back pain; improving cervical strain.\nPlan: Continue physical therapy and home exercise program. Consider additional intervention only if conservative treatment fails."
+          }
+        ]
+      }
+    ],
+    "pain_and_suffering": [
+      {
+        "description": "Neck pain rated 7/10 and lower back pain rated 6/10 reported after the collision.",
+        "category": "pain",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Symptoms: The patient reported neck pain rated 7/10, lower back pain rated 6/10, and a headache."
+          }
+        ]
+      },
+      {
+        "description": "Patient reported cervical pain 6/10 and lumbar pain 6/10 at physical therapy initial evaluation.",
+        "category": "pain",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Evaluation: Patient reported cervical pain 6/10 and lumbar pain 6/10. Reduced cervical rotation and pain with lumbar flexion were noted."
+          }
+        ]
+      },
+      {
+        "description": "Neck pain improved to 4/10 but low-back pain remained 5/10 after prolonged sitting (progress note).",
+        "category": "pain",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 4,
+            "passage": "Progress: Patient reported neck pain improved to 4/10 but low-back pain remained 5/10 after prolonged sitting."
+          }
+        ]
+      },
+      {
+        "description": "Low-back pain decreased to 2–3/10 with ordinary activity by discharge; occasional discomfort after prolonged sitting.",
+        "category": "pain",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 7,
+            "passage": "Outcome: Neck symptoms improved substantially. Low-back pain decreased to 2–3/10 with ordinary activity, with occasional discomfort after prolonged sitting."
+          }
+        ]
+      },
+      {
+        "description": "Difficulty remaining seated through normal work periods; productivity decreased because of frequent position changes and short walking breaks.",
+        "category": "work",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Work: The patient works as a software analyst and reported difficulty remaining seated through normal work periods. The patient stated that productivity had decreased because of frequent position changes and short walking breaks."
+          }
+        ]
+      },
+      {
+        "description": "Patient reported needing additional breaks while completing household chores and had difficulty lifting laundry baskets.",
+        "category": "daily_activity",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Functional limitations: Patient reported difficulty with prolonged sitting, driving longer than approximately 20 minutes, lifting laundry baskets, and sleeping through the night."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Sleep / Daily Activities: The patient reported waking during the night because of back discomfort and needing additional breaks while completing household chores."
+          }
+        ]
+      },
+      {
+        "description": "Waking during the night because of back discomfort; sleep remained interrupted on some nights during PT; reported sleeping better by discharge.",
+        "category": "sleep",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 2,
+            "passage": "Sleep / Daily Activities: The patient reported waking during the night because of back discomfort and needing additional breaks while completing household chores."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 4,
+            "passage": "Functional status: Patient could drive for approximately 30 minutes before needing to change position. Sleep remained interrupted on some nights."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 7,
+            "passage": "Function: Patient reported sleeping better, completing household activities with fewer breaks, and tolerating longer periods at the computer."
+          }
+        ]
+      },
+      {
+        "description": "Difficulty with prolonged sitting; driving limited to approximately 20 minutes initially and later able to drive approximately 30 minutes before repositioning.",
+        "category": "mobility",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Functional limitations: Patient reported difficulty with prolonged sitting, driving longer than approximately 20 minutes, lifting laundry baskets, and sleeping through the night."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 4,
+            "passage": "Functional status: Patient could drive for approximately 30 minutes before needing to change position."
+          }
+        ]
+      },
+      {
+        "description": "Stopped recreational basketball because running and twisting increased back pain; had not returned to basketball during care and had begun light shooting drills by discharge.",
+        "category": "hobby",
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Recreation: Patient stated that recreational basketball, normally played twice weekly, had been stopped because running and twisting increased back pain."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 4,
+            "passage": "Recreation: Patient had not returned to basketball."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 7,
+            "passage": "Recreation: Patient had begun light shooting drills but had not yet returned to full basketball games."
+          }
+        ]
+      }
+    ],
+    "conflicts": [
+      {
+        "field": "incident_date",
+        "description": "Different incident dates are documented across the source medical records.",
+        "values": [
+          "March 12, 2026",
+          "March 13, 2026",
+          "March 20, 2026"
+        ],
+        "citations": [
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 1,
+            "passage": "Reported Incident: Motor vehicle collision on March 12, 2026."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 6,
+            "passage": "Chief Complaint: Persistent low-back pain and improving neck pain following March 12, 2026 motor vehicle collision."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 8,
+            "passage": "including the emergency department and primary-care records, identify the collision date as March 12, 2026."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 8,
+            "passage": "Incident Date Entered: March 13, 2026"
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 8,
+            "passage": "Note: This administrative intake lists the incident date as March 13, 2026."
+          },
+          {
+            "document_name": "synthetic_pi_medical_record.pdf",
+            "page_number": 3,
+            "passage": "Provider: Atlanta Rehabilitation & Sports Therapy\nDate of Service: March 20, 2026\nTherapist: Elena Brooks, DPT\nReferral: Neck and low-back pain after motor vehicle collision."
+          }
+        ]
+      }
+    ]
+  },
+  "demand_narrative": {
+    "narrative": "Medical Treatment and Pain‑and‑Suffering Narrative\n\nIncident date and initial administrative notes: The emergency‑department record documents a motor‑vehicle collision on March 12, 2026. [synthetic_pi_medical_record.pdf, p. 1] Administrative intake records, however, list the incident date as March 13, 2026, and other care‑entry documentation refers to care beginning on March 20, 2026; these differing dates are present in the medical record and are not reconciled in the chart. [synthetic_pi_medical_record.pdf, p. 8] [synthetic_pi_medical_record.pdf, p. 6] [synthetic_pi_medical_record.pdf, p. 3]\n\nInitial presentation and emergency‑department care: On March 12, 2026, the emergency department documented that the patient reported neck pain rated 7/10, lower‑back pain rated 6/10, and a headache. [synthetic_pi_medical_record.pdf, p. 1] Exam findings included cervical paraspinal tenderness and lumbar paraspinal tenderness. [synthetic_pi_medical_record.pdf, p. 1] The ED assessment listed acute cervical strain, acute lumbar strain, and post‑traumatic headache. [synthetic_pi_medical_record.pdf, p. 1] Treatment in the ED included administration of acetaminophen, and the patient was discharged with instructions for conservative care and outpatient follow‑up. [synthetic_pi_medical_record.pdf, p. 1]\n\nPrimary‑care follow‑up: On March 16, 2026, a primary‑care visit documented cervical strain and lumbar strain following the motor‑vehicle collision, and ongoing headaches were noted. [synthetic_pi_medical_record.pdf, p. 2]\n\nPhysical‑therapy course and conservative management: The patient was referred to Atlanta Rehabilitation & Sports Therapy and was seen by Elena Brooks, DPT, with a documented date of service of March 20, 2026. [synthetic_pi_medical_record.pdf, p. 3] The initial physical‑therapy evaluation recorded cervical pain 6/10 and lumbar pain 6/10, reduced cervical rotation, and pain with lumbar flexion. [synthetic_pi_medical_record.pdf, p. 3] Documented physical‑therapy treatments included therapeutic exercise, stretching, manual therapy, postural education, and a home‑exercise program (March 20, 2026). [synthetic_pi_medical_record.pdf, p. 3] Subsequent documented PT care (April 3, 2026) included therapeutic exercise, core stabilization, manual therapy, and progression of the home‑exercise program. [synthetic_pi_medical_record.pdf, p. 4]\n\nPain progression and interim functional status during therapy: A progress note dated April 3, 2026 documented that neck pain had improved to 4/10 while low‑back pain remained 5/10 after prolonged sitting. [synthetic_pi_medical_record.pdf, p. 4] Functional status at that time included the ability to drive for approximately 30 minutes before needing to change position, and sleep remained interrupted on some nights. [synthetic_pi_medical_record.pdf, p. 4]\n\nDiagnostic imaging and orthopedic consultation: A lumbar MRI without contrast performed on April 8, 2026 showed a small posterior L4‑L5 disc protrusion with mild narrowing of the left lateral recess and no acute osseous abnormality. [synthetic_pi_medical_record.pdf, p. 5] An orthopedic consultation with Daniel Kim, MD, on April 14, 2026 recorded the assessment of lumbar disc protrusion at L4‑L5 with mechanical low‑back pain and noted an improving cervical strain; the plan was to continue physical therapy and the home‑exercise program and to consider additional intervention only if conservative treatment failed. [synthetic_pi_medical_record.pdf, p. 6] The MRI impression and the orthopedic assessment are both documented in the record. [synthetic_pi_medical_record.pdf, p. 5] [synthetic_pi_medical_record.pdf, p. 6]\n\nCompletion of conservative care and discharge from physical therapy: The record documents completion of 12 physical‑therapy visits with discharge to an independent home‑exercise program on May 8, 2026. [synthetic_pi_medical_record.pdf, p. 7] At discharge, neck symptoms were described as having improved substantially. [synthetic_pi_medical_record.pdf, p. 7] Low‑back pain was documented as decreased to 2–3/10 with ordinary activity, with occasional discomfort after prolonged sitting. [synthetic_pi_medical_record.pdf, p. 7] The discharge record also documents that the patient reported sleeping better, completing household activities with fewer breaks, and tolerating longer periods at the computer. [synthetic_pi_medical_record.pdf, p. 7]\n\nDocumented effects on work: The medical record documents that the patient works as a software analyst and reported difficulty remaining seated through normal work periods, with decreased productivity due to frequent position changes and short walking breaks. [synthetic_pi_medical_record.pdf, p. 2]\n\nDocumented effects on sleep: The chart documents waking during the night because of back discomfort and notes that sleep remained interrupted on some nights during therapy; by discharge the patient reported sleeping better. [synthetic_pi_medical_record.pdf, p. 2] [synthetic_pi_medical_record.pdf, p. 4] [synthetic_pi_medical_record.pdf, p. 7]\n\nDocumented effects on daily activities and mobility: During the course of care the patient reported needing additional breaks to complete household chores and difficulty lifting laundry baskets. [synthetic_pi_medical_record.pdf, p. 3] Driving was initially limited to approximately 20 minutes before worsening symptoms were reported, with later documentation that the patient could drive approximately 30 minutes before needing to change position. [synthetic_pi_medical_record.pdf, p. 3] [synthetic_pi_medical_record.pdf, p. 4] By discharge the patient reported completing household activities with fewer breaks and tolerating longer computer periods. [synthetic_pi_medical_record.pdf, p. 7]\n\nDocumented effects on hobbies and recreation: The record documents that the patient stopped recreational basketball, normally played twice weekly, because running and twisting increased back pain; during care the patient had not returned to basketball, and by discharge had begun light shooting drills but had not returned to full games. [synthetic_pi_medical_record.pdf, p. 3] [synthetic_pi_medical_record.pdf, p. 4] [synthetic_pi_medical_record.pdf, p. 7]\n\nSummary of diagnoses and current plan in the record: Documented diagnoses across the records include acute cervical strain, acute lumbar strain, and post‑traumatic headache on initial ED assessment. [synthetic_pi_medical_record.pdf, p. 1] Subsequent primary‑care documentation reiterates cervical strain and lumbar strain. [synthetic_pi_medical_record.pdf, p. 2] The MRI and orthopedic assessment document a lumbar disc protrusion at L4‑L5 with mechanical low‑back pain, with the orthopedic plan to continue conservative treatment and consider further intervention only if conservative care fails. [synthetic_pi_medical_record.pdf, p. 5] [synthetic_pi_medical_record.pdf, p. 6]\n\nThis narrative summarizes the documented medical treatment, objective findings, diagnostic imaging, treatment course, and the recorded pain, functional limitations, and effects on work, sleep, daily activities, and recreation as contained in the medical record. [synthetic_pi_medical_record.pdf, p. 1] [synthetic_pi_medical_record.pdf, p. 3] [synthetic_pi_medical_record.pdf, p. 5] [synthetic_pi_medical_record.pdf, p. 7]",
+    "citations": [
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 1,
+        "passage": "Symptoms: The patient reported neck pain rated 7/10, lower back pain rated 6/10, and a headache."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 1,
+        "passage": "Exam: Cervical paraspinal tenderness and lumbar paraspinal tenderness were documented."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 5,
+        "passage": "Impression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 6,
+        "passage": "Assessment: Lumbar disc protrusion at L4-L5 with mechanical low-back pain; improving cervical strain."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 1,
+        "passage": "Assessment: Acute cervical strain; acute lumbar strain; post-traumatic headache."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 2,
+        "passage": "Assessment: Cervical strain and lumbar strain following motor vehicle collision; headaches."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Provider: Atlanta Rehabilitation & Sports Therapy\nDate of Service: March 20, 2026\nTherapist: Elena Brooks, DPT\nReferral: Neck and low-back pain after motor vehicle collision."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Therapist: Elena Brooks, DPT"
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 2,
+        "passage": "Provider: Maya Patel, MD — Midtown Family Medicine\nDate of Service: March 16, 2026"
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 1,
+        "passage": "Provider: Peachtree Regional Medical Center, Emergency Department\nDate of Service: March 12, 2026"
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 6,
+        "passage": "Provider: Daniel Kim, MD — Georgia Spine & Orthopedics\nDate of Service: April 14, 2026"
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 5,
+        "passage": "Provider: Metro Diagnostic Imaging\nDate of Study: April 8, 2026\nStudy: MRI Lumbar Spine Without Contrast"
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 1,
+        "passage": "Treatment: Acetaminophen was administered. The patient was discharged with instructions for conservative care and outpatient follow-up."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Treatment: Therapeutic exercise, stretching, manual therapy, postural education, and home exercise program."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 4,
+        "passage": "Treatment: Therapeutic exercise, core stabilization, manual therapy, and home exercise progression."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 5,
+        "passage": "Study: MRI Lumbar Spine Without Contrast\nFindings: At L4-L5, there is a small posterior disc protrusion with mild narrowing of the left lateral recess. No acute fracture is identified. Alignment is maintained.\nImpression: Small L4-L5 posterior disc protrusion. No acute osseous abnormality."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 7,
+        "passage": "Course: Patient completed 12 physical therapy visits.\nOutcome: Neck symptoms improved substantially. Low-back pain decreased to 2–3/10 with ordinary activity, with occasional discomfort after prolonged sitting.\nFunction: Patient reported sleeping better, completing household activities with fewer breaks, and tolerating longer periods at the computer.\nPlan: Discharge to independent home exercise program."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 6,
+        "passage": "Assessment: Lumbar disc protrusion at L4-L5 with mechanical low-back pain; improving cervical strain.\nPlan: Continue physical therapy and home exercise program. Consider additional intervention only if conservative treatment fails."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Evaluation: Patient reported cervical pain 6/10 and lumbar pain 6/10. Reduced cervical rotation and pain with lumbar flexion were noted."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 4,
+        "passage": "Progress: Patient reported neck pain improved to 4/10 but low-back pain remained 5/10 after prolonged sitting."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 7,
+        "passage": "Outcome: Neck symptoms improved substantially. Low-back pain decreased to 2–3/10 with ordinary activity, with occasional discomfort after prolonged sitting."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 2,
+        "passage": "Work: The patient works as a software analyst and reported difficulty remaining seated through normal work periods. The patient stated that productivity had decreased because of frequent position changes and short walking breaks."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Functional limitations: Patient reported difficulty with prolonged sitting, driving longer than approximately 20 minutes, lifting laundry baskets, and sleeping through the night."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 2,
+        "passage": "Sleep / Daily Activities: The patient reported waking during the night because of back discomfort and needing additional breaks while completing household chores."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 4,
+        "passage": "Functional status: Patient could drive for approximately 30 minutes before needing to change position. Sleep remained interrupted on some nights."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 7,
+        "passage": "Function: Patient reported sleeping better, completing household activities with fewer breaks, and tolerating longer periods at the computer."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 4,
+        "passage": "Functional status: Patient could drive for approximately 30 minutes before needing to change position."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 3,
+        "passage": "Recreation: Patient stated that recreational basketball, normally played twice weekly, had been stopped because running and twisting increased back pain."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 4,
+        "passage": "Recreation: Patient had not returned to basketball."
+      },
+      {
+        "document_name": "synthetic_pi_medical_record.pdf",
+        "page_number": 7,
+        "passage": "Recreation: Patient had begun light shooting drills but had not yet returned to full basketball games."
+      }
+    ]
+  }
+}

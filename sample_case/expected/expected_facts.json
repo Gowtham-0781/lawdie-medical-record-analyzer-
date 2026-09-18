@@ -1,0 +1,48 @@
+{
+  "patient_name": "Jordan Miller",
+  "primary_incident_date": "March 12, 2026",
+
+  "expected_injuries": [
+    "cervical strain",
+    "lumbar strain",
+    "post-traumatic headache"
+  ],
+
+  "expected_imaging_findings": [
+    "small L4-L5 posterior disc protrusion",
+    "no acute fracture"
+  ],
+
+  "expected_providers": [
+    "Peachtree Regional Medical Center",
+    "Midtown Family Medicine",
+    "Atlanta Rehabilitation & Sports Therapy",
+    "Metro Diagnostic Imaging",
+    "Georgia Spine & Orthopedics"
+  ],
+
+  "expected_functional_impacts": [
+    "prolonged sitting difficulty",
+    "driving limitation",
+    "sleep disruption",
+    "work limitations",
+    "household activity limitations",
+    "basketball limitation"
+  ],
+
+  "expected_treatment_course": [
+    "emergency department evaluation",
+    "conservative pain management",
+    "physical therapy",
+    "home exercise program",
+    "orthopedic consultation"
+  ],
+
+  "expected_conflict": {
+    "field": "incident_date",
+    "values": [
+      "March 12, 2026",
+      "March 13, 2026"
+    ]
+  }
+}
