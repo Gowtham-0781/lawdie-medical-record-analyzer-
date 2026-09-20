@@ -129,6 +129,13 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
+Mac/Linux:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
 ### 2. Install dependencies
 
 ```powershell
@@ -239,9 +246,9 @@ A citation is accepted only when:
 - The referenced page exists
 - The cited passage can be matched to source text after normalization
 
-Unsupported citations are surfaced as invalid rather than automatically trusted.
+Unsupported citations are surfaced as invalid rather than automatically trusted, and are excluded from the facts passed into narrative generation, so a claim that cannot be verified against the source text never reaches the demand letter.
 
-The sample end-to-end run produced 38 valid citations out of 40 extracted citations. Invalid citations remain detectable by the validation layer instead of being silently accepted.
+Citation counts vary slightly between runs because the configured model (gpt-5-mini) does not expose temperature control, and structured extraction can therefore differ run to run (see "What Is Not Production Ready"). Across multiple end-to-end runs on the sample case, grounding validation consistently caught and excluded a meaningful minority of extracted citations that could not be matched to source text, typically several citations out of 40-50 total. Invalid citations remain detectable and are excluded from the final narrative rather than silently accepted.
 
 ## Conflict Detection
 
@@ -338,14 +345,16 @@ Current limitations include:
 - Handwriting recognition is limited.
 - Retrieval currently uses an in-memory FAISS index.
 - Citation validation primarily uses normalized exact passage matching.
-- Conflict detection currently focuses on incident-date discrepancies.
-- LLM extraction can vary between runs.
+- Conflict detection currently focuses on incident-date discrepancies, using keyword-proximity heuristics (checking for incident-related terms while excluding passages containing follow-up or visit language) rather than true event-date disambiguation.
+- The configured model (gpt-5-mini) does not expose temperature control, so extraction results and citation counts vary between runs on identical input.
 - There is no human-review interface.
 - There is no persistent case database.
 - There is no authentication or role-based access control.
 - There is no PHI-specific security or compliance layer.
 - There is no production monitoring, audit trail, or model-evaluation framework.
 - Medical bills and damages calculations are outside the current implementation.
+- There is no plain-language translation layer for medical/legal jargon.
+- There is no case-severity classification (e.g., soft tissue vs. serious vs. catastrophic).
 
 The generated narrative should therefore be treated as draft material for human review, not as final legal or medical advice.
 
@@ -356,13 +365,15 @@ With additional time, I would focus on:
 1. Sentence and section-aware chunking for medical documents.
 2. Hybrid retrieval combining semantic and keyword search.
 3. Better OCR preprocessing and handwriting-capable document models.
-4. More granular conflict detection across diagnoses, dates, providers, medications, and treatment history.
+4. More granular conflict detection across diagnoses, dates, providers, medications, and treatment history, using event-date attribution rather than keyword proximity.
 5. Fuzzy and span-level citation verification.
 6. Per-claim confidence and grounding metadata.
 7. Automated evaluation against labeled medical-record cases.
 8. Persistent vector storage and case-level document management.
 9. A reviewer interface showing each generated claim beside its source page and passage.
 10. Authentication, encryption, audit logging, PHI controls, and production observability.
+11. A medical jargon/code breakdown layer explaining clinical terms in plain language.
+12. Case-severity classification to calibrate narrative depth by case type.
 
 ## Design Principle
 

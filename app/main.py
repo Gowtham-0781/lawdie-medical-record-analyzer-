@@ -64,12 +64,11 @@ class MedicalRecordAnalyzer:
 
         print("[5/7] Validating source grounding...")
 
-        grounding = (
-            GroundingValidator()
-            .validate_case_facts(
-                facts,
-                pages,
-            )
+        grounding_validator = GroundingValidator()
+
+        grounding = grounding_validator.validate_case_facts(
+            facts,
+            pages,
         )
 
         print(
@@ -78,6 +77,18 @@ class MedicalRecordAnalyzer:
             f"{grounding['total_citations']} "
             "citations valid."
         )
+
+        rejected_count = grounding["invalid_citations"]
+
+        if rejected_count > 0:
+            facts = grounding_validator.filter_invalid_facts(
+                facts,
+                pages,
+            )
+            print(
+                f"      Excluded {rejected_count} unverified "
+                "claim(s) from the narrative."
+            )
 
         print("[6/7] Detecting conflicts...")
 
@@ -101,4 +112,5 @@ class MedicalRecordAnalyzer:
         return CaseAnalysis(
             facts=facts,
             demand_narrative=demand,
+            grounding_report=grounding,
         )

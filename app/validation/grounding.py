@@ -114,6 +114,34 @@ class GroundingValidator:
             "invalid": invalid,
         }
 
+    def filter_invalid_facts(
+        self,
+        facts: CaseFacts,
+        pages: list[PageContent],
+    ) -> CaseFacts:
+
+        def _filter_items(items):
+            kept = []
+            for item in items:
+                valid_citations, _ = self.validate_citations(
+                    item.citations,
+                    pages,
+                )
+                if valid_citations:
+                    item.citations = valid_citations
+                    kept.append(item)
+            return kept
+
+        facts.injuries = _filter_items(facts.injuries)
+        facts.diagnoses = _filter_items(facts.diagnoses)
+        facts.providers = _filter_items(facts.providers)
+        facts.treatments = _filter_items(facts.treatments)
+        facts.pain_and_suffering = _filter_items(
+            facts.pain_and_suffering
+        )
+
+        return facts
+
     @staticmethod
     def _normalize(
         text: str,

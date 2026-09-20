@@ -8,7 +8,7 @@ python-dotenv
 
 openai
 
-PyMuPDFpip
+PyMuPDF
 pypdf
 Pillow
 pytesseract

@@ -26,6 +26,17 @@ class ConflictDetector:
         "crash",
     )
 
+    FOLLOWUP_TERMS = (
+        "date of service",
+        "visit",
+        "evaluation",
+        "follow-up",
+        "followup",
+        "referred",
+        "seen by",
+        "appointment",
+    )
+
     def detect(
         self,
         facts: CaseFacts,
@@ -147,10 +158,24 @@ class ConflictDetector:
 
         passage_lower = passage.lower()
 
-        return any(
+        has_incident_term = any(
             term in passage_lower
             for term in self.INCIDENT_TERMS
         )
+
+        if not has_incident_term:
+            return False
+
+        # Exclude passages where the date actually describes a
+        # follow-up/visit/referral event rather than the incident
+        # itself (e.g. "referred following the motor vehicle
+        # collision, date of service March 20, 2026").
+        has_followup_term = any(
+            term in passage_lower
+            for term in self.FOLLOWUP_TERMS
+        )
+
+        return not has_followup_term
 
     def _extract_dates(
         self,
